@@ -1,7 +1,9 @@
 window.I18N = {
   ru: {
+    brand: "ГНВ",
+    name: "Галкин Никита Владимирович",
     title: "Системный аналитик · Senior",
-    subtitle: "6+ лет · FinTech и Telecom · Москва",
+    subtitle: "6+ лет · FinTech и Telecom · Москва · 10.03.2001",
     download_ru: "Скачать PDF (RU)",
     about_title: "О себе",
     about_body: `
@@ -75,8 +77,10 @@ window.I18N = {
   },
 
   en: {
+    brand: "NG",
+    name: "Nikita Galkin",
     title: "Systems Analyst · Senior",
-    subtitle: "6+ years · FinTech & Telecom · Moscow",
+    subtitle: "6+ years · FinTech & Telecom · Moscow · born 10 Mar 2001",
     download_ru: "Download PDF (RU)",
     about_title: "About",
     about_body: `

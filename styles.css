@@ -120,6 +120,15 @@ h1 {
   letter-spacing: -0.02em;
 }
 
+.name {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
 .subtitle {
   color: var(--accent);
   font-weight: 500;

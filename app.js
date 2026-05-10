@@ -39,8 +39,8 @@
 
     document.documentElement.setAttribute("lang", lang);
     document.title = lang === "ru"
-      ? "Семён Галкин — Системный аналитик"
-      : "Semyon Galkin — Systems Analyst";
+      ? "Галкин Никита Владимирович — Системный аналитик"
+      : "Nikita Galkin — Systems Analyst";
 
     // text nodes
     document.querySelectorAll("[data-i18n]").forEach(el => {
