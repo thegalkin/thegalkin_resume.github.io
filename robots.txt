@@ -122,6 +122,6 @@ Sitemap: https://thegalkin.com/sitemap-index.xml
 #   https://thegalkin.com/resume.txt
 #   https://thegalkin.com/.well-known/ai-plugin.json
 
-# Yandex feeds (Turbo RSS + YML services):
+# Yandex feeds (Turbo RSS + YML services as XML):
 #   https://thegalkin.com/turbo.rss
-#   https://thegalkin.com/services.yml
+#   https://thegalkin.com/services.xml
