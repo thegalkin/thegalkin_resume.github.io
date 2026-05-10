@@ -2,9 +2,11 @@ window.I18N = {
   ru: {
     brand: "ГНВ",
     name: "Галкин Никита Владимирович",
+    seo_h1: "Галкин Никита Владимирович — Системный аналитик Senior · Резюме",
     title: "Системный аналитик · Senior",
     subtitle: "6+ лет · FinTech и Telecom · Москва · 10.03.2001",
     download_ru: "Скачать PDF (RU)",
+    download_en: "Download PDF (EN)",
     about_title: "О себе",
     about_body: `
       <p>Системный аналитик, 6+ лет в FinTech и Telecom. Поработал над ВЭД-сервисом крупного банка, биллингом Московской Биржи, корпоративным браузером Сбера и приложением для выездных мастеров МТС.</p>
@@ -73,15 +75,18 @@ window.I18N = {
     mts_stack: "Стек: PostgreSQL, REST, Kafka, OpenAPI / Swagger, UML, PlantUML, BPMN, Confluence, Postman.",
 
     edu_title: "Финансовый университет при Правительстве РФ, Москва",
+    edu_faculty: "Факультет анализа данных и машинного обучения",
     edu_meta: "Прикладная информатика · Бакалавр · 2024"
   },
 
   en: {
     brand: "NG",
     name: "Nikita Galkin",
+    seo_h1: "Nikita Galkin — Senior Systems Analyst · Resume",
     title: "Systems Analyst · Senior",
     subtitle: "6+ years · FinTech & Telecom · Moscow · born 10 Mar 2001",
     download_ru: "Download PDF (RU)",
+    download_en: "Download PDF (EN)",
     about_title: "About",
     about_body: `
       <p>Systems analyst with 6+ years in FinTech and Telecom. Worked on a foreign-trade (cross-border) service for a major bank, the billing system of the Moscow Exchange, a corporate mobile browser at Sber, and a field-engineer app at MTS.</p>
@@ -150,6 +155,7 @@ window.I18N = {
     mts_stack: "Stack: PostgreSQL, REST, Kafka, OpenAPI / Swagger, UML, PlantUML, BPMN, Confluence, Postman.",
 
     edu_title: "Financial University under the Government of the Russian Federation, Moscow",
+    edu_faculty: "Faculty of Data Analysis and Machine Learning",
     edu_meta: "Applied Informatics · Bachelor's · 2024"
   }
 };

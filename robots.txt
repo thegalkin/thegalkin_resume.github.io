@@ -1,0 +1,121 @@
+# =============================================================
+# robots.txt for thegalkin.com
+# Resume site of Galkin Nikita Vladimirovich (Systems Analyst)
+# =============================================================
+
+# --- Default rules for all web crawlers ---
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# --- Yandex specific (Russia) ---
+User-agent: Yandex
+Allow: /
+Clean-param: lang&theme
+Host: thegalkin.com
+
+# --- Yandex bots variants ---
+User-agent: YandexBot
+Allow: /
+
+User-agent: YandexImages
+Allow: /
+
+# --- Google ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Google-Extended controls whether Gemini/Bard/Vertex AI may train on this site
+User-agent: Google-Extended
+Allow: /
+
+# --- Bing ---
+User-agent: Bingbot
+Allow: /
+
+# =============================================================
+# AI / LLM crawlers — explicitly allowed
+# This site WELCOMES indexing by AI agents for resume discovery.
+# =============================================================
+
+# OpenAI / ChatGPT (search + training)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude (search + training)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Common Crawl (training data for many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# Apple (Apple Intelligence)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ByteDance / Doubao
+User-agent: Bytespider
+Allow: /
+
+# YOU.com
+User-agent: YouBot
+Allow: /
+
+# Diffbot (used by many AI startups for KG building)
+User-agent: Diffbot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# =============================================================
+# Sitemaps and AI-specific manifests
+# =============================================================
+Sitemap: https://thegalkin.com/sitemap.xml
+
+# AI-friendly summary and plain-text resume:
+#   https://thegalkin.com/llms.txt
+#   https://thegalkin.com/resume.txt
+#   https://thegalkin.com/.well-known/ai-plugin.json

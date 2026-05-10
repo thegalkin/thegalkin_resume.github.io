@@ -1,0 +1,15 @@
+{
+  "name": "Галкин Никита Владимирович — Системный аналитик",
+  "short_name": "Галкин Н.В.",
+  "description": "Резюме системного аналитика, 6+ лет в FinTech и Telecom.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F7F6F2",
+  "theme_color": "#01696F",
+  "lang": "ru",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
