@@ -76,7 +76,41 @@ window.I18N = {
 
     edu_title: "Финансовый университет при Правительстве РФ, Москва",
     edu_faculty: "Факультет анализа данных и машинного обучения",
-    edu_meta: "Прикладная информатика · Бакалавр · 2024"
+    edu_meta: "Прикладная информатика · Бакалавр · 2024",
+
+    bc_home: "Главная",
+    bc_resume: "Резюме",
+    bc_current: "Галкин Никита Владимирович",
+
+    quick_title: "Быстрые ссылки",
+    quick_about: "Обо мне",
+    quick_experience: "Опыт работы",
+    quick_services: "Услуги",
+    quick_skills: "Навыки",
+    quick_education: "Образование",
+    quick_pdf_ru: "PDF резюме (RU)",
+    quick_pdf_en: "PDF resume (EN)",
+    quick_telegram: "Написать в Telegram",
+    quick_email: "Написать на email",
+
+    services_title: "Услуги и компетенции",
+    services_intro: "Самозанятый. Работаю с компаниями как привлечённый системный аналитик, режим удалённый, Москва.",
+    svc1_title: "Сбор и формализация требований",
+    svc1_desc: "Бизнес- и функциональные требования, user stories, постановки на разработку, приёмочные критерии.",
+    svc2_title: "Проектирование интеграций (REST, Kafka)",
+    svc2_desc: "Синхронные и асинхронные обмены, API-контракты, событийные потоки, схемы взаимодействия сервисов.",
+    svc3_title: "Описание API в OpenAPI / Swagger",
+    svc3_desc: "Спецификации REST API, версионирование, согласование с ИБ и смежными командами.",
+    svc4_title: "Моделирование данных (PostgreSQL)",
+    svc4_desc: "ER-модели, нормализация, витрины данных, расчётные и отчётные схемы, согласование с командой БД.",
+    svc5_title: "Архитектурные диаграммы (C4, UML, BPMN)",
+    svc5_desc: "Верхнеуровневая архитектура, взаимодействия сервисов, бизнес-процессы, схемы состояний.",
+    svc6_title: "Аудит и описание легаси-систем",
+    svc6_desc: "Реверс-инжиниринг существующих процессов и интеграций, восстановление документации, оценка рисков.",
+    svc7_title: "Documentation as Code / Confluence",
+    svc7_desc: "Автогенерация доки из кода, ведение базы знаний, шаблоны постановок и ADR.",
+    svc8_title: "Консультации для FinTech и Telecom",
+    svc8_desc: "Советы по биллингу, ВЭД, корпоративной безопасности, SSO, полевым приложениям."
   },
 
   en: {
@@ -156,6 +190,40 @@ window.I18N = {
 
     edu_title: "Financial University under the Government of the Russian Federation, Moscow",
     edu_faculty: "Faculty of Data Analysis and Machine Learning",
-    edu_meta: "Applied Informatics · Bachelor's · 2024"
+    edu_meta: "Applied Informatics · Bachelor's · 2024",
+
+    bc_home: "Home",
+    bc_resume: "Resume",
+    bc_current: "Nikita Galkin",
+
+    quick_title: "Quick links",
+    quick_about: "About",
+    quick_experience: "Experience",
+    quick_services: "Services",
+    quick_skills: "Skills",
+    quick_education: "Education",
+    quick_pdf_ru: "PDF resume (RU)",
+    quick_pdf_en: "PDF resume (EN)",
+    quick_telegram: "Message on Telegram",
+    quick_email: "Send email",
+
+    services_title: "Services & competencies",
+    services_intro: "Self-employed (samozanyatyy). Available as a contract systems analyst, remote, Moscow.",
+    svc1_title: "Requirements gathering and formalization",
+    svc1_desc: "Business and functional requirements, user stories, dev-ready specs, acceptance criteria.",
+    svc2_title: "Integration design (REST, Kafka)",
+    svc2_desc: "Synchronous and asynchronous exchanges, API contracts, event flows, service-interaction diagrams.",
+    svc3_title: "API spec in OpenAPI / Swagger",
+    svc3_desc: "REST API specifications, versioning, alignment with InfoSec and adjacent teams.",
+    svc4_title: "Data modelling (PostgreSQL)",
+    svc4_desc: "ER models, normalization, data marts, calculation and reporting schemas, alignment with the DB team.",
+    svc5_title: "Architecture diagrams (C4, UML, BPMN)",
+    svc5_desc: "High-level architecture, service interactions, business processes, state diagrams.",
+    svc6_title: "Audit and documentation of legacy systems",
+    svc6_desc: "Reverse-engineering existing processes and integrations, restoring documentation, risk assessment.",
+    svc7_title: "Documentation as Code / Confluence",
+    svc7_desc: "Doc autogeneration from code, knowledge base curation, spec templates and ADRs.",
+    svc8_title: "Consulting for FinTech and Telecom",
+    svc8_desc: "Advice on billing, foreign trade, corporate security, SSO, field-engineer apps."
   }
 };

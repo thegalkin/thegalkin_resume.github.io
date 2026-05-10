@@ -4,11 +4,50 @@
   <url>
     <loc>https://thegalkin.com/</loc>
     <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://thegalkin.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://thegalkin.com/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thegalkin.com/"/>
+  </url>
+  <url>
+    <loc>https://thegalkin.com/?lang=en</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thegalkin.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thegalkin.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thegalkin.com/"/>
+  </url>
+  <url>
+    <loc>https://thegalkin.com/#about</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thegalkin.com/#experience</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thegalkin.com/#services</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thegalkin.com/#skills</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thegalkin.com/#education</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://thegalkin.com/assets/resume_ru.pdf</loc>

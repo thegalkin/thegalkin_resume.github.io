@@ -114,8 +114,14 @@ Allow: /
 # Sitemaps and AI-specific manifests
 # =============================================================
 Sitemap: https://thegalkin.com/sitemap.xml
+Sitemap: https://thegalkin.com/sitemap-images.xml
+Sitemap: https://thegalkin.com/sitemap-index.xml
 
 # AI-friendly summary and plain-text resume:
 #   https://thegalkin.com/llms.txt
 #   https://thegalkin.com/resume.txt
 #   https://thegalkin.com/.well-known/ai-plugin.json
+
+# Yandex feeds (Turbo RSS + YML services):
+#   https://thegalkin.com/turbo.rss
+#   https://thegalkin.com/services.yml

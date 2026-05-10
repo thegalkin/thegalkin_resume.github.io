@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+  <channel>
+    <title>Галкин Никита Владимирович — Системный аналитик Senior</title>
+    <link>https://thegalkin.com/</link>
+    <description>Резюме системного аналитика с 6+ лет опыта в FinTech и Telecom. Москва. PostgreSQL, REST, Kafka, OpenAPI, UML, BPMN, C4.</description>
+    <language>ru</language>
+    <lastBuildDate>Sun, 10 May 2026 23:00:00 +0300</lastBuildDate>
+
+    <item turbo="true">
+      <title>Галкин Никита Владимирович — Системный аналитик Senior</title>
+      <link>https://thegalkin.com/</link>
+      <pubDate>Sun, 10 May 2026 23:00:00 +0300</pubDate>
+      <author>Галкин Никита Владимирович</author>
+      <category>Резюме</category>
+      <category>Системный анализ</category>
+      <category>FinTech</category>
+      <category>Telecom</category>
+      <turbo:source>https://thegalkin.com/</turbo:source>
+      <turbo:topic>Галкин Никита Владимирович — Системный аналитик Senior · Резюме</turbo:topic>
+      <yandex:related>
+        <link url="https://thegalkin.com/assets/resume_ru.pdf">PDF резюме (RU)</link>
+        <link url="https://thegalkin.com/assets/resume_en.pdf">PDF resume (EN)</link>
+      </yandex:related>
+      <turbo:content>
+<![CDATA[
+<header>
+  <h1>Галкин Никита Владимирович — Системный аналитик Senior</h1>
+  <h2>6+ лет в FinTech и Telecom · Москва · 10 марта 2001</h2>
+  <figure>
+    <img src="https://thegalkin.com/assets/avatar-large.jpg" alt="Галкин Никита Владимирович"/>
+  </figure>
+</header>
+
+<p><b>Контакты:</b> Telegram <a href="https://t.me/chalybe">@chalybe</a> · +7 999 989-78-26 · <a href="mailto:work@thegalkin.com">work@thegalkin.com</a> · <a href="https://github.com/thegalkin">github.com/thegalkin</a></p>
+
+<h2>О себе</h2>
+<p>Системный аналитик, 6+ лет в FinTech и Telecom. Работал над ВЭД-сервисом крупного банка, биллингом Московской Биржи, корпоративным браузером Сбера и приложением для выездных мастеров МТС.</p>
+<p>Собираю и формализую требования, проектирую интеграции (REST, Kafka), веду API-контракты, моделирую данные, сопровождаю задачи от постановки до прода.</p>
+
+<h2>Опыт работы</h2>
+
+<h3>WMT, Москва — Системный аналитик (октябрь 2024 — апрель 2026)</h3>
+<p>Финансово-агентский сервис ВЭД для крупного банка: ТН ВЭД, заявки и предложения, агентские цепочки, расчёт налогов и пошлин, валютный контроль. PostgreSQL, REST, Kafka, OpenAPI, UML, PlantUML, BPMN.</p>
+
+<h3>Московская Биржа — Системный аналитик (август 2023 — октябрь 2024)</h3>
+<p>Биллинг клиентов биржи. Десятки интегрированных систем-источников транзакций. PostgreSQL, REST, Kafka, OpenAPI, UML, ER, BPMN.</p>
+
+<h3>Сбер — Системный аналитик (март 2022 — август 2023)</h3>
+<p>СберБраузер — корпоративный мобильный браузер на базе Chromium. SSO, безопасность, интеграции. PostgreSQL, REST, Kafka, OpenAPI, C4, BPMN, UML.</p>
+
+<h3>МТС — Системный аналитик (сентябрь 2019 — март 2022)</h3>
+<p>Мобильное приложение для выездных мастеров: документооборот, заявки, тарифы, оборудование. PostgreSQL, REST, Kafka, OpenAPI, UML, PlantUML, Postman.</p>
+
+<h2>Услуги</h2>
+<ul>
+  <li>Сбор и формализация требований</li>
+  <li>Проектирование интеграций (REST, Kafka)</li>
+  <li>Описание API в OpenAPI / Swagger</li>
+  <li>Моделирование данных (PostgreSQL)</li>
+  <li>Архитектурные диаграммы (C4, UML, BPMN)</li>
+  <li>Аудит и описание легаси-систем</li>
+  <li>Documentation as Code / Confluence</li>
+  <li>Консультации для FinTech и Telecom</li>
+</ul>
+
+<h2>Навыки</h2>
+<p><b>Моделирование:</b> UML, PlantUML, ER, C4, BPMN</p>
+<p><b>Интеграции:</b> REST, Apache Kafka, OpenAPI, Swagger</p>
+<p><b>Базы данных:</b> PostgreSQL, SQL</p>
+<p><b>Код:</b> Java, Python, Swift, JavaScript</p>
+<p><b>Процессы:</b> Agile, Scrum, Documentation as Code, Confluence, Postman, Git</p>
+
+<h2>Образование</h2>
+<p>Финансовый университет при Правительстве РФ, Москва. Факультет анализа данных и машинного обучения. Прикладная информатика, Бакалавр, 2024.</p>
+
+<p><a href="https://thegalkin.com/assets/resume_ru.pdf">Скачать PDF (RU)</a> · <a href="https://thegalkin.com/assets/resume_en.pdf">Download PDF (EN)</a></p>
+]]>
+      </turbo:content>
+    </item>
+
+  </channel>
+</rss>

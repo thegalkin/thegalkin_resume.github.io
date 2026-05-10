@@ -223,6 +223,26 @@
 }
 </script>
 
+<!-- JSON-LD: Services (OfferCatalog) for Yandex/Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "name": "Услуги системного аналитика",
+  "provider": { "@id": "https://thegalkin.com/#person" },
+  "itemListElement": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Сбор и формализация требований", "description": "Бизнес- и функциональные требования, user stories, постановки, приёмочные критерии", "serviceType": "Системный анализ", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Проектирование интеграций (REST, Kafka)", "description": "Синхронные и асинхронные обмены, API-контракты, событийные потоки", "serviceType": "Интеграции", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Описание API в OpenAPI / Swagger", "description": "Спецификации REST API, версионирование, согласование с ИБ", "serviceType": "API design", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Моделирование данных (PostgreSQL)", "description": "ER-модели, нормализация, витрины данных, расчётные и отчётные схемы", "serviceType": "Data modeling", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Архитектурные диаграммы (C4, UML, BPMN)", "description": "Верхнеуровневая архитектура, взаимодействия сервисов, бизнес-процессы", "serviceType": "Architecture diagrams", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Аудит и описание легаси-систем", "description": "Реверс-инжиниринг интеграций, восстановление документации", "serviceType": "Legacy audit", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Documentation as Code / Confluence", "description": "Автогенерация документации, ведение базы знаний", "serviceType": "Documentation", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Консультации для FinTech и Telecom", "description": "Советы по биллингу, ВЭД, корпоративной безопасности", "serviceType": "FinTech consulting", "areaServed": "RU", "provider": { "@id": "https://thegalkin.com/#person" } } }
+  ]
+}
+</script>
+
 <!-- JSON-LD: BreadcrumbList -->
 <script type="application/ld+json">
 {
@@ -230,8 +250,8 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://thegalkin.com/" },
-    { "@type": "ListItem", "position": 2, "name": "Резюме (RU)", "item": "https://thegalkin.com/assets/resume_ru.pdf" },
-    { "@type": "ListItem", "position": 3, "name": "Resume (EN)", "item": "https://thegalkin.com/assets/resume_en.pdf" }
+    { "@type": "ListItem", "position": 2, "name": "Резюме", "item": "https://thegalkin.com/#about" },
+    { "@type": "ListItem", "position": 3, "name": "Услуги", "item": "https://thegalkin.com/#services" }
   ]
 }
 </script>
@@ -308,6 +328,29 @@
 </header>
 
 <main class="container">
+
+  <nav class="breadcrumbs" aria-label="breadcrumb">
+    <ol>
+      <li><a href="https://thegalkin.com/" data-i18n="bc_home">Главная</a></li>
+      <li><a href="#about" data-i18n="bc_resume">Резюме</a></li>
+      <li aria-current="page" data-i18n="bc_current">Галкин Никита Владимирович</li>
+    </ol>
+  </nav>
+
+  <nav class="quicklinks" aria-label="Quick links">
+    <h2 data-i18n="quick_title">Быстрые ссылки</h2>
+    <ul>
+      <li><a href="#about" data-i18n="quick_about">Обо мне</a></li>
+      <li><a href="#experience" data-i18n="quick_experience">Опыт работы</a></li>
+      <li><a href="#services" data-i18n="quick_services">Услуги</a></li>
+      <li><a href="#skills" data-i18n="quick_skills">Навыки</a></li>
+      <li><a href="#education" data-i18n="quick_education">Образование</a></li>
+      <li><a href="assets/resume_ru.pdf" download data-i18n="quick_pdf_ru">PDF резюме (RU)</a></li>
+      <li><a href="assets/resume_en.pdf" download data-i18n="quick_pdf_en">PDF resume (EN)</a></li>
+      <li><a href="https://t.me/chalybe" target="_blank" rel="noopener" data-i18n="quick_telegram">Написать в Telegram</a></li>
+      <li><a href="mailto:work@thegalkin.com" data-i18n="quick_email">Написать на email</a></li>
+    </ul>
+  </nav>
 
   <section id="about">
     <h2 data-i18n="about_title">О себе</h2>
@@ -399,6 +442,45 @@
         <p class="meta" data-i18n="edu_meta">Прикладная информатика · Бакалавр · 2024</p>
       </header>
     </article>
+  </section>
+
+  <section id="services">
+    <h2 data-i18n="services_title">Услуги и компетенции</h2>
+    <p data-i18n="services_intro">Самозанятый. Работаю с компаниями как привлечённый системный аналитик, режим удалённый, Москва.</p>
+    <div class="services-grid">
+      <article class="service-card">
+        <h3 data-i18n="svc1_title">Сбор и формализация требований</h3>
+        <p data-i18n="svc1_desc">Бизнес- и функциональные требования, user stories, постановки на разработку, приёмочные критерии.</p>
+      </article>
+      <article class="service-card">
+        <h3 data-i18n="svc2_title">Проектирование интеграций (REST, Kafka)</h3>
+        <p data-i18n="svc2_desc">Синхронные и асинхронные обмены, API-контракты, событийные потоки, схемы взаимодействия сервисов.</p>
+      </article>
+      <article class="service-card">
+        <h3 data-i18n="svc3_title">Описание API в OpenAPI / Swagger</h3>
+        <p data-i18n="svc3_desc">Спецификации REST API, версионирование, согласование с ИБ и смежными командами.</p>
+      </article>
+      <article class="service-card">
+        <h3 data-i18n="svc4_title">Моделирование данных (PostgreSQL)</h3>
+        <p data-i18n="svc4_desc">ER-модели, нормализация, витрины данных, расчётные и отчётные схемы.</p>
+      </article>
+      <article class="service-card">
+        <h3 data-i18n="svc5_title">Архитектурные диаграммы (C4, UML, BPMN)</h3>
+        <p data-i18n="svc5_desc">Верхнеуровневая архитектура, взаимодействия сервисов, бизнес-процессы, схемы состояний.</p>
+      </article>
+      <article class="service-card">
+        <h3 data-i18n="svc6_title">Аудит и описание легаси-систем</h3>
+        <p data-i18n="svc6_desc">Реверс-инжиниринг существующих процессов и интеграций, восстановление документации, оценка рисков.</p>
+      </article>
+      <article class="service-card">
+        <h3 data-i18n="svc7_title">Documentation as Code / Confluence</h3>
+        <p data-i18n="svc7_desc">Автогенерация доки из кода, ведение базы знаний, шаблоны постановок и ADR.</p>
+      </article>
+      <article class="service-card">
+        <h3 data-i18n="svc8_title">Консультации для FinTech и Telecom</h3>
+        <p data-i18n="svc8_desc">Советы по биллингу, ВЭД, корпоративной безопасности, SSO, полевым приложениям.</p>
+      </article>
+    </div>
   </section>
 
   <section id="skills">

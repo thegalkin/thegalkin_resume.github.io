@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://thegalkin.com/</loc>
+    <image:image>
+      <image:loc>https://thegalkin.com/assets/og-image.jpg</image:loc>
+      <image:title>Галкин Никита Владимирович — Системный аналитик Senior</image:title>
+      <image:caption>Обложка резюме: фото, имя, роль и контакты</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thegalkin.com/assets/avatar-large.jpg</image:loc>
+      <image:title>Фото Галкина Никиты Владимировича</image:title>
+      <image:caption>Аватар системного аналитика</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thegalkin.com/assets/avatar.jpg</image:loc>
+      <image:title>Аватар (300×300)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://thegalkin.com/icon-512.png</image:loc>
+      <image:title>Иконка сайта thegalkin.com</image:title>
+    </image:image>
+  </url>
+</urlset>

@@ -356,6 +356,108 @@ footer a {
 
 footer a:hover { color: var(--accent); border-color: var(--accent); }
 
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 24px 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.breadcrumbs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.breadcrumbs li { display: inline-flex; align-items: center; gap: 8px; }
+.breadcrumbs li + li::before {
+  content: "›";
+  color: var(--muted);
+  opacity: 0.6;
+}
+.breadcrumbs a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.breadcrumbs a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.breadcrumbs [aria-current="page"] { color: var(--fg, inherit); }
+
+/* Quick links */
+.quicklinks {
+  margin: 24px 0;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+}
+.quicklinks h2 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 12px;
+  padding: 0;
+  border: none;
+}
+.quicklinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+.quicklinks a {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 13px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.quicklinks a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 8px;
+}
+.service-card {
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+}
+.service-card h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
+.service-card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 /* Mobile */
 @media (max-width: 720px) {
   .hero-grid {
@@ -377,7 +479,7 @@ footer a:hover { color: var(--accent); border-color: var(--accent); }
 
 /* Print */
 @media print {
-  .topbar, .actions, footer { display: none; }
+  .topbar, .actions, footer, .breadcrumbs, .quicklinks { display: none; }
   body { background: white; color: black; }
-  .job { page-break-inside: avoid; }
+  .job, .service-card { page-break-inside: avoid; }
 }
