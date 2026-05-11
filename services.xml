@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-05-10 23:00">
+<yml_catalog date="2026-05-11 10:14">
   <shop>
-    <name>Галкин Никита — Системный аналитик</name>
+    <name>Системный аналитик Галкин</name>
     <company>Галкин Никита Владимирович, самозанятый</company>
     <url>https://thegalkin.com/</url>
     <email>work@thegalkin.com</email>
@@ -31,10 +31,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>Бизнес- и функциональные требования, user stories, постановки на разработку, приёмочные критерии. Работаю удалённо, Москва.</description>
-        <param name="Формат">Удалённо</param>
-        <param name="Регион">Москва, вся Россия</param>
-        <param name="Оплата">Час / проект</param>
-        <param name="Опыт">6+ лет</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-2" available="true">
@@ -46,9 +49,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>Синхронные и асинхронные обмены, API-контракты, событийные потоки, схемы взаимодействия сервисов. PostgreSQL, REST, Kafka, OpenAPI.</description>
-        <param name="Формат">Удалённо</param>
-        <param name="Стек">REST, Kafka, OpenAPI, Swagger</param>
-        <param name="Опыт">FinTech, Telecom</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-3" available="true">
@@ -60,8 +67,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>Спецификации REST API, версионирование, согласование с ИБ и смежными командами. Документация контрактов с нуля или ревизия существующих.</description>
-        <param name="Формат">Удалённо</param>
-        <param name="Стандарт">OpenAPI 3.x</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-4" available="true">
@@ -73,8 +85,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>ER-модели, нормализация, витрины данных, расчётные и отчётные схемы, согласование с командой БД. PostgreSQL, SQL, DWH.</description>
-        <param name="Формат">Удалённо</param>
-        <param name="СУБД">PostgreSQL</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-5" available="true">
@@ -86,8 +103,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>Верхнеуровневая архитектура, взаимодействия сервисов, бизнес-процессы, схемы состояний. C4, UML, PlantUML, BPMN, ER.</description>
-        <param name="Формат">Удалённо</param>
-        <param name="Нотации">C4, UML, PlantUML, BPMN, ER</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-6" available="true">
@@ -99,8 +121,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>Реверс-инжиниринг существующих процессов и интеграций, восстановление документации, оценка рисков. Подходит для подготовки к рефакторингу или миграции.</description>
-        <param name="Формат">Удалённо</param>
-        <param name="Результат">Документация, диаграммы, реестр рисков</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-7" available="true">
@@ -112,8 +139,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>Автогенерация документации из кода, ведение базы знаний, шаблоны постановок и ADR. Превращение «кладбища» Confluence в живой инструмент.</description>
-        <param name="Формат">Удалённо</param>
-        <param name="Инструменты">Confluence, Git, PlantUML, OpenAPI</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-8" available="true">
@@ -125,8 +157,13 @@
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
         <description>Советы по биллингу, ВЭД, корпоративной безопасности, SSO, полевым приложениям. Часовые консультации или сопровождение проектов.</description>
-        <param name="Формат">Удалённо, видеозвонок</param>
-        <param name="Опыт">МТС, Сбер, Московская Биржа, WMT</param>
+      
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">0</param>
+        <param name="годы опыта">6</param>
+        <param name="регион">Москва</param>
+        <param name="конверсия">100</param>
+        <param name="формат">Удалённо</param>
       </offer>
 
     </offers>
