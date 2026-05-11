@@ -262,63 +262,7 @@
 <link rel="stylesheet" href="styles.css" />
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        // #region agent log
-        fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H2',location:'index.html:268',message:'metrika stub created',data:{ymType:typeof m[i]},timestamp:Date.now()})}).catch(()=>{});
-        // #endregion
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) {
-            // #region agent log
-            fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H2',location:'index.html:271',message:'metrika script already exists',data:{scriptSrc:r},timestamp:Date.now()})}).catch(()=>{});
-            // #endregion
-            return;
-        }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r;
-        k.onload=function(){
-            // #region agent log
-            fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H1',location:'index.html:278',message:'metrika script loaded',data:{scriptSrc:r},timestamp:Date.now()})}).catch(()=>{});
-            // #endregion
-        };
-        k.onerror=function(){
-            // #region agent log
-            fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H1',location:'index.html:283',message:'metrika script failed to load',data:{scriptSrc:r},timestamp:Date.now()})}).catch(()=>{});
-            // #endregion
-            fetch('https://mc.yandex.ru/watch/66785497',{mode:'no-cors',cache:'no-store'}).then(function(){
-                // #region agent log
-                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H9',location:'index.html:287',message:'yandex watch probe succeeded',data:{url:'https://mc.yandex.ru/watch/66785497'},timestamp:Date.now()})}).catch(()=>{});
-                // #endregion
-            }).catch(function(){
-                // #region agent log
-                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H9',location:'index.html:290',message:'yandex watch probe failed',data:{url:'https://mc.yandex.ru/watch/66785497'},timestamp:Date.now()})}).catch(()=>{});
-                // #endregion
-            });
-            fetch('https://mc.webvisor.org/metrika/tag_ww.js',{mode:'no-cors',cache:'no-store'}).then(function(){
-                // #region agent log
-                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H10',location:'index.html:294',message:'webvisor probe succeeded',data:{url:'https://mc.webvisor.org/metrika/tag_ww.js'},timestamp:Date.now()})}).catch(()=>{});
-                // #endregion
-            }).catch(function(){
-                // #region agent log
-                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H10',location:'index.html:297',message:'webvisor probe failed',data:{url:'https://mc.webvisor.org/metrika/tag_ww.js'},timestamp:Date.now()})}).catch(()=>{});
-                // #endregion
-            });
-        };
-        // #region agent log
-        fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H3',location:'index.html:287',message:'metrika script append start',data:{scriptSrc:r},timestamp:Date.now()})}).catch(()=>{});
-        // #endregion
-        a.parentNode.insertBefore(k,a);
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
-
-    // #region agent log
-    fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H3',location:'index.html:292',message:'before ym init',data:{ymType:typeof ym,host:location.host,path:location.pathname},timestamp:Date.now()})}).catch(()=>{});
-    // #endregion
-    ym(66785497, 'init', {webvisor:true, trackHash:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
-    // #region agent log
-    fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H5',location:'index.html:295',message:'after ym init called',data:{counterId:66785497,trackHash:true},timestamp:Date.now()})}).catch(()=>{});
-    // #endregion
-</script>
-<!-- /Yandex.Metrika counter -->
+ <!-- Yandex.Metrika counter --> <script type="text/javascript">     (function(m,e,t,r,i,k,a){         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};         m[i].l=1*new Date();         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)     })(window, document,'script','https://mc.webvisor.org/metrika/tag_ww.js', 'ym');      ym(66785497, 'init', {webvisor:true, trackHash:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true}); </script>  <!-- /Yandex.Metrika counter -->   
 </head>
 <body>
 

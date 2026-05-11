@@ -1,0 +1,7 @@
+{"sessionId":"502541","runId":"initial","hypothesisId":"H2","location":"index.html:268","message":"metrika stub created","data":{"ymType":"function"},"timestamp":1778489898105}
+{"sessionId":"502541","runId":"initial","hypothesisId":"H3","location":"index.html:287","message":"metrika script append start","data":{"scriptSrc":"https://mc.yandex.ru/metrika/tag.js"},"timestamp":1778489898105}
+{"sessionId":"502541","runId":"initial","hypothesisId":"H3","location":"index.html:292","message":"before ym init","data":{"ymType":"function","host":"thegalkin.com","path":"/"},"timestamp":1778489898106}
+{"sessionId":"502541","runId":"initial","hypothesisId":"H5","location":"index.html:295","message":"after ym init called","data":{"counterId":66785497,"trackHash":true},"timestamp":1778489898106}
+{"sessionId":"502541","runId":"initial","hypothesisId":"H1","location":"index.html:283","message":"metrika script failed to load","data":{"scriptSrc":"https://mc.yandex.ru/metrika/tag.js"},"timestamp":1778489900394}
+{"sessionId":"502541","runId":"initial","hypothesisId":"H9","location":"index.html:290","message":"yandex watch probe failed","data":{"url":"https://mc.yandex.ru/watch/66785497"},"timestamp":1778489902488}
+{"sessionId":"502541","runId":"initial","hypothesisId":"H10","location":"index.html:297","message":"webvisor probe failed","data":{"url":"https://mc.webvisor.org/metrika/tag_ww.js"},"timestamp":1778489902638}
