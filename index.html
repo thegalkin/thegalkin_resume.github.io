@@ -264,10 +264,6 @@
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
-        var fallbackSrc = 'https://mc.webvisor.org/metrika/tag_ww.js';
-        var primaryLoaded = false;
-        var fallbackAttempted = false;
-        var fallbackLoaded = false;
         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();
         // #region agent log
@@ -281,7 +277,6 @@
         }}
         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r;
         k.onload=function(){
-            primaryLoaded = true;
             // #region agent log
             fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H1',location:'index.html:278',message:'metrika script loaded',data:{scriptSrc:r},timestamp:Date.now()})}).catch(()=>{});
             // #endregion
@@ -290,35 +285,29 @@
             // #region agent log
             fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H1',location:'index.html:283',message:'metrika script failed to load',data:{scriptSrc:r},timestamp:Date.now()})}).catch(()=>{});
             // #endregion
-            var fallback = e.createElement(t);
-            fallbackAttempted = true;
-            fallback.async = 1;
-            fallback.src = fallbackSrc;
-            fallback.onload=function(){
-                fallbackLoaded = true;
+            fetch('https://mc.yandex.ru/watch/66785497',{mode:'no-cors',cache:'no-store'}).then(function(){
                 // #region agent log
-                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H6',location:'index.html:289',message:'metrika fallback script loaded',data:{scriptSrc:fallbackSrc},timestamp:Date.now()})}).catch(()=>{});
+                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H9',location:'index.html:287',message:'yandex watch probe succeeded',data:{url:'https://mc.yandex.ru/watch/66785497'},timestamp:Date.now()})}).catch(()=>{});
                 // #endregion
-            };
-            fallback.onerror=function(){
+            }).catch(function(){
                 // #region agent log
-                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H7',location:'index.html:294',message:'metrika fallback script failed to load',data:{scriptSrc:fallbackSrc},timestamp:Date.now()})}).catch(()=>{});
+                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H9',location:'index.html:290',message:'yandex watch probe failed',data:{url:'https://mc.yandex.ru/watch/66785497'},timestamp:Date.now()})}).catch(()=>{});
                 // #endregion
-            };
-            // #region agent log
-            fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H6',location:'index.html:298',message:'metrika fallback append start',data:{scriptSrc:fallbackSrc},timestamp:Date.now()})}).catch(()=>{});
-            // #endregion
-            a.parentNode.insertBefore(fallback,a);
+            });
+            fetch('https://mc.webvisor.org/metrika/tag_ww.js',{mode:'no-cors',cache:'no-store'}).then(function(){
+                // #region agent log
+                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H10',location:'index.html:294',message:'webvisor probe succeeded',data:{url:'https://mc.webvisor.org/metrika/tag_ww.js'},timestamp:Date.now()})}).catch(()=>{});
+                // #endregion
+            }).catch(function(){
+                // #region agent log
+                fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H10',location:'index.html:297',message:'webvisor probe failed',data:{url:'https://mc.webvisor.org/metrika/tag_ww.js'},timestamp:Date.now()})}).catch(()=>{});
+                // #endregion
+            });
         };
         // #region agent log
         fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H3',location:'index.html:287',message:'metrika script append start',data:{scriptSrc:r},timestamp:Date.now()})}).catch(()=>{});
         // #endregion
         a.parentNode.insertBefore(k,a);
-        setTimeout(function(){
-            // #region agent log
-            fetch('http://127.0.0.1:7826/ingest/d05115ec-0d4e-4ef7-b7ea-443527598f2d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'502541'},body:JSON.stringify({sessionId:'502541',runId:'initial',hypothesisId:'H8',location:'index.html:306',message:'metrika load status timeout',data:{primaryLoaded:primaryLoaded,fallbackAttempted:fallbackAttempted,fallbackLoaded:fallbackLoaded,userAgent:navigator.userAgent},timestamp:Date.now()})}).catch(()=>{});
-            // #endregion
-        }, 4000);
     })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
 
     // #region agent log
