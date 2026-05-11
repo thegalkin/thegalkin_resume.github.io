@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-05-11 10:14">
+<yml_catalog date="2026-05-12 12:00">
   <shop>
     <name>Системный аналитик Галкин</name>
     <company>Галкин Никита Владимирович, самозанятый</company>
@@ -23,25 +23,25 @@
     <offers>
 
       <offer id="svc-1" available="true">
-        <name>Сбор и формализация требований</name>
+        <name>Галкин Никита Владимирович — сбор и формализация требований</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
         <picture>https://thegalkin.com/assets/og-image.jpg</picture>
         <vendor>Галкин Никита Владимирович</vendor>
-        <description>Бизнес- и функциональные требования, user stories, постановки на разработку, приёмочные критерии. Работаю удалённо, Москва.</description>
+        <description>Бизнес- и функциональные требования, user stories, постановки на разработку, приёмочные критерии. Работаю удалённо: Москва, Московская область, Санкт-Петербург, Ленинградская область, по всей России.</description>
       
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-2" available="true">
-        <name>Проектирование интеграций (REST, Kafka)</name>
+        <name>Галкин Никита Владимирович — проектирование интеграций (REST, Kafka)</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
@@ -53,13 +53,13 @@
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-3" available="true">
-        <name>Описание API в OpenAPI / Swagger</name>
+        <name>Галкин Никита Владимирович — описание API в OpenAPI / Swagger</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
@@ -71,13 +71,13 @@
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-4" available="true">
-        <name>Моделирование данных (PostgreSQL)</name>
+        <name>Галкин Никита Владимирович — моделирование данных (PostgreSQL)</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
@@ -89,13 +89,13 @@
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-5" available="true">
-        <name>Архитектурные диаграммы (C4, UML, BPMN)</name>
+        <name>Галкин Никита Владимирович — архитектурные диаграммы (C4, UML, BPMN)</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
@@ -107,13 +107,13 @@
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-6" available="true">
-        <name>Аудит и описание легаси-систем</name>
+        <name>Галкин Никита Владимирович — аудит и описание легаси-систем</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
@@ -125,13 +125,13 @@
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-7" available="true">
-        <name>Documentation as Code / Confluence</name>
+        <name>Галкин Никита Владимирович — Documentation as Code / Confluence</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
@@ -143,13 +143,13 @@
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
 
       <offer id="svc-8" available="true">
-        <name>Консультации для FinTech и Telecom</name>
+        <name>Галкин Никита Владимирович — консультации для FinTech и Telecom</name>
         <url>https://thegalkin.com/#services</url>
         <price>5000</price>
         <currencyId>RUR</currencyId>
@@ -161,7 +161,7 @@
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">0</param>
         <param name="годы опыта">6</param>
-        <param name="регион">Москва</param>
+        <param name="регион">Москва, Московская область, Санкт-Петербург, Ленинградская область, Россия</param>
         <param name="конверсия">100</param>
         <param name="формат">Удалённо</param>
       </offer>
