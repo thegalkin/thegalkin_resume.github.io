@@ -94,7 +94,7 @@ window.I18N = {
     quick_email: "Написать на email",
 
     services_title: "Услуги и компетенции",
-    services_intro: "Самозанятый. Работаю с компаниями как привлечённый системный аналитик, режим удалённый, Москва.",
+    services_intro: "Галкин Никита Владимирович, ИП. Сотрудничаю с компаниями как привлечённый системный аналитик, режим удалённый, Москва.",
     svc1_title: "Сбор и формализация требований",
     svc1_desc: "Бизнес- и функциональные требования, user stories, постановки на разработку, приёмочные критерии.",
     svc2_title: "Проектирование интеграций (REST, Kafka)",
@@ -208,7 +208,7 @@ window.I18N = {
     quick_email: "Send email",
 
     services_title: "Services & competencies",
-    services_intro: "Self-employed (samozanyatyy). Available as a contract systems analyst, remote, Moscow.",
+    services_intro: "Nikita Galkin, individual entrepreneur (IE). I collaborate with companies as a contract systems analyst, remote, Moscow.",
     svc1_title: "Requirements gathering and formalization",
     svc1_desc: "Business and functional requirements, user stories, dev-ready specs, acceptance criteria.",
     svc2_title: "Integration design (REST, Kafka)",
